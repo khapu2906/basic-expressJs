@@ -1,6 +1,7 @@
 
 const path = require('path')
 const fs = require('fs')
+
 module.exports = {
 	index: (req, res) => {
 		return res.sendFile(path.join(__dirname, './../views/contact.html'))
